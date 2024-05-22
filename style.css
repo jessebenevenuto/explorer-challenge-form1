@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+
+  /* font-size: 14px; */
+  /* line-height: 24px; */
+}
+
+body, input {
+  font-family: 'Poppins', sans-serif;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header::before {
+  content:'';
+  width: 100%;
+  height: 436px;
+  background: #535971;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header {
+  width: 417px;
+
+  color: white;
+}
+
+header h1 {
+  margin: 140px 0 18px;
+
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+header p {
+  margin-bottom: 58px;
+
+  font-size: 20px;
+}
+
+form {
+  background: white;
+  border-radius: 16px 16px 0 0;
+  padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+form fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fieldset-wrapper legend {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+
+  /* width: 100%; */
+  margin-bottom: 16px;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  width: 100%;
+}
+
+.input-wrapper input {
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background: #FAFAFC;
+
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #737272;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+}
+
+.input-wrapper label span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+.input-wrapper label span:hover {
+  color: #76767c;
+}
+
+input:invalid {
+  border: 1px solid #FF1010;
+}
+
+.fieldset-wrapper h4 {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+
+  margin-bottom: 0;
+}
+
+.fieldset-wrapper .col-3 {
+  display: flex;
+  gap: 10px;
+}
+
+.fieldset-wrapper .col-3 > .input-wrapper:nth-child(1) {
+  margin-right: 22px;
+  width: 300px;
+}
+
+.fieldset-wrapper .col-3 .input-wrapper {
+  width: 140px;
+}
+
+footer {
+  background: #535971;
+
+  border-radius: 0 0 16px 16px;
+}
+
+footer .button {
+  margin: 52px 71px;
+  padding: 15px 279px;
+
+  border-radius: 20px;
+  border: none;
+  background: #FF5374;
+
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+}
+
+footer .button:hover {
+  background: #cc3b58;
+}
+
+
